@@ -10,7 +10,7 @@
 
 ## 安装到当前 web profile
 
-本插件是本地开发的 linked 包。当前环境没有 pnpm，因此用符号链接 + profile patch 安装：
+本插件以 linked 包形式安装。若环境没有 pnpm，可用符号链接 + profile patch：
 
 ```sh
 cd /path/to/dsh-plugin-network-proxy
