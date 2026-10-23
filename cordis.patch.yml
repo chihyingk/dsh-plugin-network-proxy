@@ -1,0 +1,7 @@
+# Bundle patch for the network-proxy plugin: insert its single host row.
+# The volatile fields live in the active profile patch and are edited by the
+# plugin's settings page or by the /proxy command. Keep the row id
+# `network-proxy`: the settings page and persistence both address it.
+- insert:
+    - id: network-proxy
+      name: 'dsh-plugin-network-proxy'
